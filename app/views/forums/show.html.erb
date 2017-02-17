@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @forum.url %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @forum.title %>
+</p>
+
+<p>
+  <strong>Last scan date:</strong>
+  <%= @forum.last_scan_date %>
+</p>
+
+<%= link_to 'Edit', edit_forum_path(@forum) %> |
+<%= link_to 'Back', forums_path %>
