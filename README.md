@@ -3,6 +3,8 @@
 [![CircleCI](https://circleci.com/gh/pjfitzgibbons/able-health-scraper/tree/master.svg?style=svg)](https://circleci.com/gh/pjfitzgibbons/able-health-scraper/tree/master)
 
 ## Ruby version
+RVM settings are configured on `.ruby-version` and `.ruby-gemset`
+Otherwise, Ruby (MRI) 2.3.3
 
 ## System dependencies
 ### Nokogiri
