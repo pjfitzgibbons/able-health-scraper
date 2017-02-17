@@ -5,20 +5,32 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+## Ruby version
 
-* System dependencies
+## System dependencies
+### Nokogiri
+If on OSX Sierra (10.12), these commands might be necessary :
 
-* Configuration
+Open XCode and from the app menu XCode -> Preferences update your Command Line Tools (Xcode 8.0). Then do the following,
 
-* Database creation
+`bundle config build.nokogiri --use-system-libraries=true --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2`
 
-* Database initialization
+`bundle install`
 
-* How to run the test suite
+or just
 
-* Services (job queues, cache servers, search engines, etc.)
+`gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2`
 
-* Deployment instructions
+## Configuration
 
-* ...
+## Database creation
+
+## Database initialization
+
+## How to run the test suite
+
+## Services (job queues, cache servers, search engines, etc.)
+
+## Deployment instructions
+
+## ...
