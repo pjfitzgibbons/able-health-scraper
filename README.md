@@ -1,9 +1,6 @@
 # Able Health Programming Challenge - Scraper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+[![CircleCI](https://circleci.com/gh/pjfitzgibbons/able-health-scraper/tree/master.svg?style=svg)](https://circleci.com/gh/pjfitzgibbons/able-health-scraper/tree/master)
 
 ## Ruby version
 
@@ -32,5 +29,8 @@ or just
 ## Services (job queues, cache servers, search engines, etc.)
 
 ## Deployment instructions
+
+Application available at : https://floating-cliffs-44817.herokuapp.com/
+
 
 ## ...
