@@ -9,6 +9,15 @@
   </head>
 
   <body>
+    <div class="messages">
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </div>
+    <div class="header">
+      <%= render 'layouts/login_items' %>
+      <%= render 'layouts/registration_items' %>
+    </div>
+
     <%= yield %>
   </body>
 </html>
